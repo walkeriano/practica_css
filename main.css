@@ -1,0 +1,126 @@
+
+/*
+STYLOS GENERALES
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*
+HEADER
+*/
+
+.header{
+    background: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.nav_ul{
+    display: flex;
+}
+
+.nav_ul li{
+    margin: 15px;
+}
+
+.nav_ul li a{
+    color: white;
+}
+
+.nav_ul li a:hover{
+    border-bottom: 1px solid white;
+}
+
+/*
+MAIN
+*/
+
+h1{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+h2{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    height: 100%;
+}
+
+.img_ceviche{
+    width: 100%;
+}
+
+h3{
+    background: rgba(10, 46, 114, 0.507);
+    padding: 10px 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+h3:hover{
+    background: white;
+    color: cornflowerblue;
+}
+
+footer{
+    background: green;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+
+.img_foot{
+    display: flex;
+    width: 30px;
+    align-items: center;
+    margin-right: 30px;
+}
